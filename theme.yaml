@@ -2,10 +2,10 @@ id: xue-codeyee-glowxq
 name: xue-codeyee-glowxq
 author:
   name: 雪,LCyee,glowxq
-  website: https://www.codeyee.com
+  website: https://blog.glowworm.club
 description: 大道至简
 logo:
-website: https://gitee.com/codeyee/halo-theme-xue-codeyee
-repo: https://gitee.com/codeyee/halo-theme-xue-codeyee
+website: https://github.com/glowxq/glowblog.git
+repo: https://github.com/glowxq/glowblog.git
 version: fork_1.0.1
 require: 1.3.0
