@@ -1,0 +1,11 @@
+id: LIlGG_GloWxq_Sakura
+name: Sakura-Glow
+author:
+  name: LIlGG,GloWxq
+  website: https://blog.glowworm.club
+description: halo版本的樱花🌸主题
+logo:
+website: https://github.com/glowxq/glowblog
+repo: https://github.com/glowxq/glowblog
+version: 1.3.1
+require: 1.4.3

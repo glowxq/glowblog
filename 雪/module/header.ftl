@@ -66,6 +66,29 @@
                         </li>
 
                     </@categoryTag>
+                             <@categoryTag method="list">
+                        <li style="font-weight: 550;"  class="item has-sub"
+                            index="99">
+                            <a href="/categories" target=""
+                               class="void-link md:text-base sm:text-sm">前端</a>
+
+                            <div class="sub-menu-tree hidden sh-box-t" id="subMenu_">
+                                <div class="sh-box-b">
+                                    <ul class="sub-menu">
+                                        <#list categories as categorie>
+                                            <li>
+                                                <a href="${categorie.fullPath!}" class="link md:text-base sm:text-sm"
+                                                   target="_blank">
+                                                    ${categorie.name}(${categorie.postCount!})
+                                                </a>
+                                            </li>
+                                        </#list>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+
+                    </@categoryTag>
                 </@menuTag>
             </div>
             <div class="list-right">
